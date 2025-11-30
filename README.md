@@ -21,7 +21,7 @@ The SQLite database (`genbegna.db`) iscreated beside `server.js`.
 
 -> Frontend
 
-``
+```
 cd frontend
 npm install
 npm run dev
