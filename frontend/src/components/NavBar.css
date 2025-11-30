@@ -1,0 +1,31 @@
+.nav-shell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(173, 216, 230, 0.4);
+  background: rgba(5, 18, 40, 0.85);
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #9fd5ff;
+}
+
+.nav-links button {
+  margin-left: 0.5rem;
+  border: 1px solid rgba(159, 213, 255, 0.5);
+  background: transparent;
+  color: #c6e6ff;
+  padding: 0.35rem 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+
+.nav-links button:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+

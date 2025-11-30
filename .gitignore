@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+.env
+.env.local
+
+# Frontend artifacts
+frontend/dist/
+
+# SQLite databases and backups
+backend/genbegna.db
+backend/genbegna.db-wal
+backend/genbegna.db-shm
+backend/backups/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
